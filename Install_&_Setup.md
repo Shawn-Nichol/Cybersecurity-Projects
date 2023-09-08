@@ -56,6 +56,7 @@ ip a
 Open a web browser and navigate to the URL: https://wazuh-server-IP (replace wazuh-server-IP with the IP address you found earlier).
 
 Log in to the Wazuh Dashboard:
-user: admin
-Password: admin
+- user: admin
+- Password: admin
+
 Note: For security purposes, change the default username and password after the initial login.
