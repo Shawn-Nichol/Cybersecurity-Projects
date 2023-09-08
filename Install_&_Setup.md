@@ -1,10 +1,10 @@
 <H2>Virtual Box install</H2>
 
-Down load the lastest version of the OVA file from [Wazuh](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html)
+[Download Link](https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html): The link you provided for downloading the OVA file is currently in placeholder format and not a functional link.
 ![image](https://github.com/Shawn-Nichol/Wazuh/assets/30714313/1a46aca5-a16f-4403-81e9-5073dd0c8156)
 
 
-Compare the file hash to the one posted [here](https://packages.wazuh.com/4.x/checksums/wazuh/4.5.2/wazuh-4.5.2.ova.sha512). This can be done with powershell. 
+Compare the file hash to the one posted [here](https://packages.wazuh.com/4.x/checksums/wazuh/4.5.2/wazuh-4.5.2.ova.sha512). This step is optional but can be quickly performed with Powershell. 
 ```
 # Known SHA-512 hash
 $knownHash = "8b3f8da204879d66435ab02f675f4e2a92feef1f476547e7f5b5f0378e13f89dcc6d9961ba94469957b02047bce455e937c135320f1a2212a45bea6255094b99"
@@ -22,9 +22,9 @@ if ($hash.Hash -eq $knownHash) {
     Write-Host "File is not valid. The SHA-512 hash does not match the known hash."
 }
 ```
-After the integrity of the file has been confirmed, we'll proceed to install Wazuh on a virtual box instance. 
-- File, select Import Appliance
-- Select OVA that was recently downloaded.
+After confirming the file's integrity, proceed to install Wazuh on a VirtualBox instance:
+- Click "File" in VirtualBox and select "Import Appliance."
+- Choose the OVA file you downloaded.
   
 ![image](https://github.com/Shawn-Nichol/Wazuh/assets/30714313/8b36b057-bf43-4c4a-9d99-bace68f8be8b)
 
@@ -41,18 +41,21 @@ After the integrity of the file has been confirmed, we'll proceed to install Waz
 
 ![image](https://github.com/Shawn-Nichol/Wazuh/assets/30714313/f3ecc96a-9636-4bb6-8d66-3136afc83231)
 
-Here you will be prompted by wazuh-server login. 
-Default User: Wazuh-User
-Default Password: wazuh
+A VirtualBox window will open, prompting you to enter the Wazuh server login credentials.
+- Default User: Wazuh-User
+- Default Password: wazuh
+Note: Changing the default username and password after the initial login is advisable for security reasons.
 
 ![image](https://github.com/Shawn-Nichol/Wazuh/assets/30714313/853bd9ac-27c8-499e-bc8e-04b9de04bf91)
 
-To get the IP of the server type 
+To find the IP address of the server, use the Wazuh server terminal and run:
 ```
 ip a
 ```
 <H2>Access the Wazuh Dashboard</H2>
-URL: https://wazuh-server IP
+Open a web browser and navigate to the URL: https://wazuh-server-IP (replace wazuh-server-IP with the IP address you found earlier).
+
+Log in to the Wazuh Dashboard:
 user: admin
 Password: admin
-
+Note: For security purposes, change the default username and password after the initial login.
