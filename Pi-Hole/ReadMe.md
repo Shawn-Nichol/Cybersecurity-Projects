@@ -5,7 +5,7 @@
 
 ## Overview
 
-**Pi-hole** is a network-level ad blocker and DNS sinkhole that doubles as a robust cybersecurity tool. It operates at the heart of your network, blocking unwanted advertisements, tracking domains, and potential security threats before they even reach your devices. Pi-hole can enhance your network's cybersecurity posture in several key ways:
+**Pi-hole** is a network-level ad blocker and DNS sinkhole that doubles as a robust cybersecurity tool. It operates at the heart of your network, blocking unwanted advertisements, tracking domains, and potential security threats before they even reach your devices.
 
 ## Key Cybersecurity Benefits
 
