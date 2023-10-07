@@ -1,6 +1,6 @@
 # Cybersecurity Projects Home Lab
 
-Welcome to my Cybersecurity Projects Home Lab repository! Here, you'll find detailed documentation for various cybersecurity projects that I've implemented in my home lab. Each project comes with comprehensive instructions for installation, setup, and usage, allowing you to replicate these projects in your own environment.
+Welcome to my Cybersecurity Projects Home Lab repository! Here, you'll find detailed documentation for various cybersecurity projects I've implemented. Each project comes with comprehensive instructions for installation, setup, and usage, allowing you to replicate these projects in your own environment.
 
 
 ## Wazuh
