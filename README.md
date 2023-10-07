@@ -3,7 +3,7 @@
 Welcome to my Cybersecurity Projects Home Lab repository! Here, you'll find detailed documentation for various cybersecurity projects I've implemented. Each project comes with comprehensive instructions for installation, setup, and usage, allowing you to replicate these projects in your own environment.
 
 
-## Wazuh
+<h2> [Wazuh](https://github.com/Shawn-Nichol/Cybersecurity-Projects/tree/main/Wazuh)</h2>
 ![image](https://github.com/Shawn-Nichol/Cybersecurity-Projects/assets/30714313/2302ff5f-323a-4b87-8730-e8856300796b)
 
 Wazuh is a powerful open-source security monitoring platform that helps you protect your IT environment against security threats, detect intrusions, and respond to incidents effectively. It combines security information and event management (SIEM), intrusion detection, vulnerability detection, and more into a unified platform, making it an essential tool for safeguarding digital assets.
